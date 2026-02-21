@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeedMo Consult — Your Brand Deserves More</title>
+    <meta
+      name="description"
+      content="NEEDMO CONSULT is a strategic social media agency helping businesses, creators, and brands grow with content that performs and strategies that convert."
+    />
+
+    <!-- Favicon tag -->
+    <link rel="icon" type="favicon" href="NeedMo-favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-bar"></div>
+
+    <!-- ═══ MOBILE NAV ═══ -->
+    <div class="mobile-nav" id="mobileNav">
+      <span class="mobile-close" id="mobileClose">✕</span>
+      <a href="#hero" onclick="closeMobile()" style="margin-bottom: 8px">
+        <img
+          src="NeedMo_Logo.svg"
+          alt="NeedMo Consult"
+          style="
+            height: 36px;
+            width: auto;
+            object-fit: contain;
+            filter: brightness(1.1);
+          "
+        />
+      </a>
+      <a href="#why" onclick="closeMobile()">Why NeedMo</a>
+      <a href="#services" onclick="closeMobile()">Services</a>
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#portfolio" onclick="closeMobile()">Portfolio</a>
+      <a href="#pricing" onclick="closeMobile()">Pricing</a>
+      <a href="#faq" onclick="closeMobile()">FAQ</a>
+      <a href="#contact" class="btn-primary" onclick="closeMobile()"
+        >Book a Call →</a
+      >
+    </div>
+
+    <!-- ═══ NAV ═══ -->
+    <nav id="navbar">
+      <a href="#hero" class="logo">
+        <img src="NeedMo_Logo.svg" alt="NeedMo Consult" class="logo-img" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#why">Why NeedMo</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-cta">Book a Call →</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+    <section id="hero">
+      <!-- Parallax background image -->
+      <!-- 📷 HERO BACKGROUND — Replace CSS background-image URL in styles.css (.hero-bg-img) with your own photo (1920×1080 recommended) -->
+      <div class="hero-bg-img" id="heroBgImg"></div>
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-bg-shape"></div>
+      <div class="hero-grid-lines"></div>
+      <div class="hero-inner hero-z">
+        <div class="hero-content">
+          <div class="hero-badge">Social Media Agency</div>
+
+          <h1 class="hero-h1">
+            Your Brand<br />
+            Deserves
+            <span class="line-orange">
+              <span class="underline-box">
+                <span
+                  id="typed-text"
+                  data-words='["More.","Growth.","Results.","More."]'
+                ></span>
+              </span>
+            </span>
+          </h1>
+
+          <p class="hero-sub">
+            NEEDMO CONSULT helps businesses, creators, and brands turn their
+            online presence into real growth — with content that performs,
+            strategies that work, and results you can measure.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">
+              Book a Free Strategy Call
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#services" class="btn-ghost">See Our Services</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">4<span>+</span></span>
+              <span class="stat-label">Services Offered</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">6<span>+</span></span>
+              <span class="stat-label">Platforms Managed</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">30<span>days</span></span>
+              <span class="stat-label">Avg. First Results</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-main">
+            <p class="card-label">Platforms We Manage</p>
+            <div class="platforms-grid">
+              <div class="platform-chip">
+                <span class="picon">📸</span>Instagram
+              </div>
+              <div class="platform-chip">
+                <span class="picon">📘</span>Facebook
+              </div>
+              <div class="platform-chip">
+                <span class="picon">🎵</span>TikTok
+              </div>
+              <div class="platform-chip">
+                <span class="picon">💼</span>LinkedIn
+              </div>
+              <div class="platform-chip">
+                <span class="picon">𝕏</span>Twitter / X
+              </div>
+              <div class="platform-chip">
+                <span class="picon">▶️</span>YouTube
+              </div>
+            </div>
+            <p class="card-label">Average Growth</p>
+            <div class="growth-bar-label">
+              <span>Engagement Rate</span><span>+78%</span>
+            </div>
+            <div class="growth-track">
+              <div class="growth-fill gf1"></div>
+            </div>
+            <div class="growth-bar-label">
+              <span>Reach &amp; Impressions</span><span>+92%</span>
+            </div>
+            <div class="growth-track">
+              <div class="growth-fill gf2"></div>
+            </div>
+            <div class="growth-bar-label">
+              <span>Lead Generation</span><span>+65%</span>
+            </div>
+            <div class="growth-track">
+              <div class="growth-fill gf3"></div>
+            </div>
+          </div>
+          <div class="hero-card-float float-1">
+            <span>Total Growth</span>
+            <span class="val">↑ 312%</span>
+          </div>
+          <div class="hero-card-float float-2">
+            <div class="float-avatar">🚀</div>
+            <div>
+              <div style="font-size: 0.78rem; color: var(--muted)">
+                New booking
+              </div>
+              <div style="font-size: 0.82rem">Strategy Call Confirmed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       WHY NEEDMO
+  ═══════════════════════════════════════ -->
+    <section id="why">
+      <div class="section-inner">
+        <div data-reveal="up" data-dur="normal">
+          <p class="section-eyebrow">Why NeedMo</p>
+          <h2 class="section-title">
+            Built Different.<br />Built for Results.
+          </h2>
+          <p class="section-sub">
+            We don't just post content. We build systems that connect, convert,
+            and grow your brand consistently.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="0"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-crosshairs icon-target"></i>
+            </div>
+            <h3>Strategy-Led</h3>
+            <p>
+              We build custom plans tailored to your audience, platform, and
+              goals. Every post has a purpose — and every purpose ties to your
+              growth.
+            </p>
+          </div>
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="1"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-chart-line icon-chart"></i>
+            </div>
+            <h3>Growth-Focused</h3>
+            <p>
+              Everything we do ties to measurable outcomes — engagement, leads,
+              sales, and ROI. We track what matters and optimize relentlessly.
+            </p>
+          </div>
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-layer-group icon-layers"></i>
+            </div>
+            <h3>Full-Service</h3>
+            <p>
+              From content creation to paid ads and account management — we
+              handle it all so you don't have to. Your team without the
+              overhead.
+            </p>
+          </div>
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="1"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-magnifying-glass icon-search"></i>
+            </div>
+            <h3>Transparent Reporting</h3>
+            <p>
+              Clear communication, honest reporting, and no hidden fees — ever.
+              You always know exactly what we're doing and why it's working.
+            </p>
+          </div>
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-bolt-lightning icon-flash"></i>
+            </div>
+            <h3>Fast Execution</h3>
+            <p>
+              We move quickly. Most clients start seeing real engagement
+              improvements within the first 30–60 days of working together.
+            </p>
+          </div>
+          <div
+            class="why-card"
+            data-reveal="up"
+            data-delay="3"
+            data-dur="normal"
+          >
+            <div class="why-icon">
+              <i class="fa-solid fa-brain icon-think"></i>
+            </div>
+            <h3>Growth Mindset</h3>
+            <p>
+              We stay ahead of trends, test new platforms, and evolve our
+              strategies with the digital landscape — so you never fall behind.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════ -->
+    <section id="services">
+      <div class="section-inner">
+        <div class="services-header">
+          <div data-reveal="left" data-dur="normal">
+            <p class="section-eyebrow">What We Do</p>
+            <h2 class="section-title">
+              Everything Your Brand Needs<br />to Win on Social.
+            </h2>
+          </div>
+          <a
+            href="#contact"
+            class="btn-primary"
+            data-reveal="right"
+            data-dur="normal"
+          >
+            Get Started →
+          </a>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 — Featured wide -->
+          <div
+            class="service-card featured-svc"
+            data-reveal="up"
+            data-delay="0"
+            data-dur="normal"
+          >
+            <div class="sc-visual-panel">
+              <!-- 📷 PLACEHOLDER — Replace with your Content Creation / portfolio photo (800×600 recommended) -->
+              <img
+                src="https://images.unsplash.com/photo-1678798694643-2b8fddcf900f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Content Creation"
+                class="sc-panel-img"
+                loading="lazy"
+              />
+
+              <div class="sc-panel-badge">
+                <i class="fa-solid fa-pen-nib icon-write"></i>
+              </div>
+              <div class="sc-panel-stat">
+                <span
+                  style="
+                    font-family: var(--font-head);
+                    font-weight: 900;
+                    font-size: 1.5rem;
+                    color: var(--orange);
+                  "
+                  >+78%</span
+                >
+                <span
+                  style="
+                    font-size: 0.7rem;
+                    color: rgba(255, 255, 255, 0.7);
+                    display: block;
+                    margin-top: 2px;
+                  "
+                  >Avg. Engagement Lift</span
+                >
+              </div>
+            </div>
+            <div class="sc-body">
+              <div class="service-tag">Most Popular</div>
+              <h3>Content Creation</h3>
+              <p>
+                We create scroll-stopping content — graphics, reels, captions,
+                and stories — designed for your brand voice and optimized for
+                every platform.
+              </p>
+              <ul class="service-includes">
+                <li>Custom graphic design &amp; video editing</li>
+                <li>Copywriting with brand voice alignment</li>
+                <li>Hashtag research and strategy</li>
+                <li>Monthly content calendar</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="service-card"
+            data-reveal="up"
+            data-delay="1"
+            data-dur="normal"
+          >
+            <div class="sc-img-wrap">
+              <!-- 📷 PLACEHOLDER — Replace with your team / workspace photo (700×400 recommended) -->
+              <img
+                src="https://images.unsplash.com/photo-1762330469042-dfe6887387dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Account Management"
+                class="sc-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="sc-body">
+              <div class="sc-icon-badge">
+                <i class="fa-solid fa-calendar-check icon-bounce"></i>
+              </div>
+              <h3>Account Management</h3>
+              <p>
+                We manage your social profiles end-to-end so you can focus on
+                running your business. Posting, engagement, and reporting — all
+                handled.
+              </p>
+              <ul class="service-includes">
+                <li>Scheduled posting (daily/weekly)</li>
+                <li>Comment and DM monitoring</li>
+                <li>Community engagement</li>
+                <li>Monthly performance reports</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="service-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+          >
+            <div class="sc-img-wrap">
+              <!-- 📷 PLACEHOLDER — Replace with your ads / analytics photo (700×400 recommended) -->
+              <img
+                src="https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Paid Advertising"
+                class="sc-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="sc-body">
+              <div class="sc-icon-badge">
+                <i class="fa-solid fa-chart-line icon-rise"></i>
+              </div>
+              <h3>Paid Advertising</h3>
+              <p>
+                We run targeted ad campaigns on Facebook, Instagram, TikTok, and
+                LinkedIn — turning your budget into measurable growth and real
+                leads.
+              </p>
+              <ul class="service-includes">
+                <li>Campaign strategy &amp; audience targeting</li>
+                <li>Ad creative and copywriting</li>
+                <li>A/B testing and optimization</li>
+                <li>Detailed performance tracking</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="service-card"
+            data-reveal="up"
+            data-delay="3"
+            data-dur="normal"
+          >
+            <div class="sc-img-wrap">
+              <!-- 📷 PLACEHOLDER — Replace with your strategy / meeting photo (700×400 recommended) -->
+              <img
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Strategy & Consulting"
+                class="sc-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="sc-body">
+              <div class="sc-icon-badge">
+                <i class="fa-solid fa-chess icon-chess"></i>
+              </div>
+              <p>
+                Not sure where to start? We audit your current presence and
+                build a clear roadmap aligned with your business goals and
+                audience.
+              </p>
+              <ul class="service-includes">
+                <li>Social media audit</li>
+                <li>Competitor analysis</li>
+                <li>Platform recommendations</li>
+                <li>Custom content strategy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-inner">
+          <div>
+            <div data-reveal="left" data-dur="normal">
+              <p class="section-eyebrow">About Us</p>
+              <h2 class="section-title">Results-Driven.<br />No Excuses.</h2>
+              <p class="section-sub">
+                NEEDMO CONSULT is built for brands that refuse to settle. We
+                work with small businesses, e-commerce brands, startups, and
+                creators to build powerful online presences that actually
+                convert.
+              </p>
+            </div>
+
+            <div
+              class="about-values"
+              data-reveal="left"
+              data-delay="2"
+              data-dur="slow"
+            >
+              <div class="value-item">
+                <div class="value-dot"></div>
+                <div>
+                  <strong>Results Over Vanity</strong>
+                  <p>
+                    We focus on metrics that matter: leads, sales, and real
+                    engagement — not just follower counts.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-dot"></div>
+                <div>
+                  <strong>Strategic Creativity</strong>
+                  <p>
+                    Every piece of content is backed by strategy. Beautiful
+                    posts mean nothing without purpose.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-dot"></div>
+                <div>
+                  <strong>Client Partnership</strong>
+                  <p>
+                    We're not just vendors. We're an extension of your team,
+                    invested in your long-term success.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-dot"></div>
+                <div>
+                  <strong>Transparency Always</strong>
+                  <p>
+                    Clear communication, honest reporting, and no hidden fees —
+                    ever.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right" data-reveal="right" data-dur="slow">
+            <!-- 📷 TEAM PHOTO PLACEHOLDER — Replace src with a real team or office photo (800×500 recommended) -->
+            <div class="about-team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80"
+                alt="NeedMo Consult Team"
+                class="about-team-img"
+                loading="lazy"
+              />
+              <div class="about-team-overlay"></div>
+              <div class="about-team-badge">
+                <img
+                  src="NeedMo_Logo.svg"
+                  alt="NeedMo Consult"
+                  class="about-team-logo"
+                />
+              </div>
+            </div>
+
+            <div class="about-quote-card" style="margin-top: 24px">
+              <blockquote>
+                We don't believe in vanity metrics. We believe in
+                <strong>strategy, creativity, and consistency</strong> — and we
+                measure success by the results we deliver for every client we
+                work with. <br /><br />
+                Your wins are our wins. We're invested in your
+                <strong>long-term success</strong> — not just the next post.
+              </blockquote>
+            </div>
+            <div class="about-stats-row" style="margin-top: 16px">
+              <div class="about-stat">
+                <div class="num" data-counter="6" data-suffix="+">0</div>
+                <div class="lbl">Platforms</div>
+              </div>
+              <div class="about-stat">
+                <div class="num">30<span style="font-size: 1rem">d</span></div>
+                <div class="lbl">First Results</div>
+              </div>
+              <div class="about-stat">
+                <div class="num" data-counter="0">0</div>
+                <div class="lbl">Hidden Fees</div>
+              </div>
+            </div>
+            <div
+              style="
+                margin-top: 16px;
+                background: rgba(255, 107, 53, 0.08);
+                border: 1px solid rgba(255, 107, 53, 0.2);
+                border-radius: 12px;
+                padding: 20px 22px;
+              "
+            >
+              <p
+                style="
+                  font-size: 0.85rem;
+                  color: var(--muted);
+                  line-height: 1.6;
+                "
+              >
+                <strong style="color: var(--white)">Our Mission</strong><br />
+                To help every client show up online with confidence, clarity,
+                and content that connects with their audience and drives real
+                business growth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       PRICING
+  ═══════════════════════════════════════ -->
+    <section id="pricing">
+      <div class="section-inner">
+        <div class="pricing-header" data-reveal="up" data-dur="normal">
+          <p class="section-eyebrow">Pricing</p>
+          <h2 class="section-title">Simple, Transparent Pricing.</h2>
+          <p class="section-sub">
+            No hidden fees. No confusing tiers. Just clear value at every level
+            of growth.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter -->
+          <div
+            class="price-card"
+            data-reveal="scale"
+            data-delay="0"
+            data-dur="normal"
+          >
+            <p class="price-name">Starter</p>
+            <div class="price-amount">
+              <sup>$</sup>400<span style="font-size: 1rem; color: var(--muted)"
+                >–600</span
+              >
+            </div>
+            <p class="price-period">per month</p>
+            <p class="price-desc">
+              Perfect for local businesses and new creators ready to build a
+              presence.
+            </p>
+            <div class="price-divider"></div>
+            <ul class="price-features">
+              <li><span class="check">✓</span>8–12 posts/month</li>
+              <li><span class="check">✓</span>1 platform managed</li>
+              <li><span class="check">✓</span>Basic engagement</li>
+              <li><span class="check">✓</span>Monthly performance report</li>
+              <li><span class="check">✓</span>Content calendar</li>
+            </ul>
+            <a href="#contact" class="btn-full btn-full-outline"
+              >Get Started →</a
+            >
+          </div>
+
+          <!-- Growth -->
+          <div
+            class="price-card featured"
+            data-reveal="scale"
+            data-delay="2"
+            data-dur="normal"
+          >
+            <span class="featured-badge">Most Popular</span>
+            <p class="price-name">Growth</p>
+            <div class="price-amount">
+              <sup>$</sup>900<span style="font-size: 1rem; color: var(--muted)"
+                >–1,400</span
+              >
+            </div>
+            <p class="price-period">per month</p>
+            <p class="price-desc">
+              Best for e-commerce brands and growing startups ready to scale
+              fast.
+            </p>
+            <div class="price-divider"></div>
+            <ul class="price-features">
+              <li><span class="check">✓</span>16–20 posts/month</li>
+              <li><span class="check">✓</span>2–3 platforms managed</li>
+              <li><span class="check">✓</span>Full engagement + DMs</li>
+              <li><span class="check">✓</span>Bi-weekly reports + call</li>
+              <li><span class="check">✓</span>Paid ad support</li>
+            </ul>
+            <a href="#contact" class="btn-full btn-full-solid">Get Started →</a>
+          </div>
+
+          <!-- Premium -->
+          <div
+            class="price-card"
+            data-reveal="scale"
+            data-delay="4"
+            data-dur="normal"
+          >
+            <p class="price-name">Premium</p>
+            <div class="price-amount">
+              <sup>$</sup>2,000<span
+                style="font-size: 1rem; color: var(--muted)"
+                >–3,000</span
+              >
+            </div>
+            <p class="price-period">per month</p>
+            <p class="price-desc">
+              Full-service, multi-platform powerhouse for brands ready to
+              dominate.
+            </p>
+            <div class="price-divider"></div>
+            <ul class="price-features">
+              <li><span class="check">✓</span>24–30 posts/month</li>
+              <li><span class="check">✓</span>3–4 platforms managed</li>
+              <li><span class="check">✓</span>Full management + paid ads</li>
+              <li>
+                <span class="check">✓</span>Weekly reports + strategy calls
+              </li>
+              <li><span class="check">✓</span>Priority support</li>
+            </ul>
+            <a href="#contact" class="btn-full btn-full-outline"
+              >Get Started →</a
+            >
+          </div>
+        </div>
+
+        <p
+          class="pricing-note"
+          data-reveal="fade"
+          data-delay="3"
+          data-dur="normal"
+        >
+          <strong>Need something custom?</strong> Every brand is different.
+          <a href="#contact" style="color: var(--orange); text-decoration: none"
+            >Let's build a package that fits your needs →</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       PORTFOLIO
+  ═══════════════════════════════════════ -->
+    <section id="portfolio">
+      <div class="section-inner">
+        <div class="portfolio-header">
+          <div data-reveal="left" data-dur="normal">
+            <p class="section-eyebrow">Case Studies</p>
+            <h2 class="section-title">Real Brands.<br />Real Results.</h2>
+            <p class="section-sub" style="max-width: 480px">
+              See how we've helped businesses, creators, and startups grow their
+              online presence with strategy-led social media.
+            </p>
+          </div>
+          <a
+            href="#contact"
+            class="btn-primary"
+            data-reveal="right"
+            data-dur="normal"
+            >Start Your Story →</a
+          >
+        </div>
+
+        <!-- Filter Tabs -->
+        <div
+          class="portfolio-filters"
+          data-reveal="up"
+          data-delay="1"
+          data-dur="normal"
+        >
+          <button class="pf-tab active" onclick="filterPortfolio('all', this)">
+            All Work
+          </button>
+          <button class="pf-tab" onclick="filterPortfolio('content', this)">
+            Content Creation
+          </button>
+          <button class="pf-tab" onclick="filterPortfolio('ads', this)">
+            Paid Ads
+          </button>
+          <button class="pf-tab" onclick="filterPortfolio('management', this)">
+            Account Management
+          </button>
+          <button class="pf-tab" onclick="filterPortfolio('strategy', this)">
+            Strategy
+          </button>
+        </div>
+
+        <!-- Case Studies -->
+        <div class="portfolio-grid">
+          <!-- Card 1 — Wide Featured -->
+          <div
+            class="case-card wide"
+            data-reveal="up"
+            data-dur="normal"
+            data-cat="content management"
+          >
+            <div
+              class="case-banner"
+              style="
+                background: linear-gradient(135deg, #1f2e42 0%, #0f1c2a 100%);
+              "
+            >
+              <div class="case-banner-inner">
+                <div
+                  style="
+                    position: absolute;
+                    inset: 0;
+                    background-image: linear-gradient(
+                        rgba(255, 255, 255, 0.03) 1px,
+                        transparent 1px
+                      ),
+                      linear-gradient(
+                        90deg,
+                        rgba(255, 255, 255, 0.03) 1px,
+                        transparent 1px
+                      );
+                    background-size: 28px 28px;
+                  "
+                ></div>
+                <div
+                  style="
+                    position: relative;
+                    display: flex;
+                    gap: 14px;
+                    align-items: flex-end;
+                  "
+                >
+                  <div style="transform: rotate(-5deg); display: inline-block">
+                    <img
+                      src="https://i.pinimg.com/736x/cc/63/33/cc6333c58e595696e58de44c7ec39c3b.jpg"
+                      alt="Phone mockup"
+                      style="
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 24px;
+                        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+                      "
+                    />
+                  </div>
+
+                  <div
+                    class="case-metric-bubble"
+                    style="top: 10px; right: -20px"
+                  >
+                    <span class="mbv" style="color: #ff6b35">↑ 9K</span>
+                    <span class="mbl">New Followers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-cats">
+                <span class="case-cat">Content Creation</span>
+                <span class="case-cat">Account Management</span>
+              </div>
+              <p class="case-client">
+                Local Fashion Boutique — Instagram &amp; TikTok
+              </p>
+              <h3 class="case-title">
+                From Invisible to Unmissable: A Boutique's Social Transformation
+              </h3>
+              <p class="case-desc">
+                A local fashion boutique was posting inconsistently with zero
+                engagement strategy. We rebuilt their content calendar,
+                redesigned their visual identity, and launched a short-form
+                video strategy — turning a dormant account into a community of
+                loyal buyers.
+              </p>
+              <div class="case-metrics-row">
+                <div class="case-metric">
+                  <span class="cmv">312%</span
+                  ><span class="cml">Reach Growth</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">4.2K</span
+                  ><span class="cml">New Followers</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">68%</span
+                  ><span class="cml">↑ In-Store Traffic</span>
+                </div>
+              </div>
+              <a href="#contact" class="case-link"
+                >Get similar results <span>→</span></a
+              >
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="case-card"
+            data-reveal="up"
+            data-delay="1"
+            data-dur="normal"
+            data-cat="ads"
+          >
+            <div
+              class="case-banner"
+              style="
+                background: linear-gradient(135deg, #1a1f3a 0%, #0e1220 100%);
+              "
+            >
+              <div class="case-banner-inner">
+                <div
+                  style="
+                    position: absolute;
+                    inset: 0;
+                    background: radial-gradient(
+                      circle at 60% 40%,
+                      rgba(129, 140, 248, 0.2) 0%,
+                      transparent 60%
+                    );
+                  "
+                ></div>
+                <div
+                  style="
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    width: 80%;
+                  "
+                >
+                  <div
+                    style="
+                      background: rgba(129, 140, 248, 0.1);
+                      border: 1px solid rgba(129, 140, 248, 0.25);
+                      border-radius: 12px;
+                      padding: 14px 18px;
+                      width: 100%;
+                      text-align: center;
+                    "
+                  >
+                    <div
+                      style="
+                        font-family: var(--font-head);
+                        font-weight: 900;
+                        font-size: 1.6rem;
+                        color: #818cf8;
+                        line-height: 1;
+                      "
+                    >
+                      8.4x
+                    </div>
+                    <div
+                      style="
+                        font-size: 0.7rem;
+                        color: var(--muted);
+                        margin-top: 2px;
+                      "
+                    >
+                      ROAS achieved
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                      gap: 8px;
+                      width: 100%;
+                    "
+                  >
+                    <div
+                      style="
+                        background: rgba(255, 255, 255, 0.04);
+                        border: 1px solid var(--border);
+                        border-radius: 10px;
+                        padding: 10px;
+                        text-align: center;
+                      "
+                    >
+                      <div
+                        style="
+                          font-weight: 700;
+                          font-size: 0.9rem;
+                          color: var(--white);
+                        "
+                      >
+                        $12K
+                      </div>
+                      <div style="font-size: 0.65rem; color: var(--muted)">
+                        Ad Spend
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        background: rgba(255, 255, 255, 0.04);
+                        border: 1px solid var(--border);
+                        border-radius: 10px;
+                        padding: 10px;
+                        text-align: center;
+                      "
+                    >
+                      <div
+                        style="
+                          font-weight: 700;
+                          font-size: 0.9rem;
+                          color: #ff6b35;
+                        "
+                      >
+                        $101K
+                      </div>
+                      <div style="font-size: 0.65rem; color: var(--muted)">
+                        Revenue
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-cats">
+                <span class="case-cat">Paid Advertising</span>
+              </div>
+              <p class="case-client">
+                E-commerce Brand — Meta &amp; TikTok Ads
+              </p>
+              <h3 class="case-title">8.4x ROAS on a $12K Meta Ad Budget</h3>
+              <p class="case-desc">
+                An e-commerce skincare brand was burning budget on untargeted
+                ads with 1.2x ROAS. We audited their funnel, rebuilt creative
+                from scratch, and deployed a multi-stage Meta + TikTok campaign.
+              </p>
+              <div class="case-metrics-row">
+                <div class="case-metric">
+                  <span class="cmv">8.4x</span><span class="cml">ROAS</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">$101K</span><span class="cml">Revenue</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">↓64%</span
+                  ><span class="cml">Cost Per Lead</span>
+                </div>
+              </div>
+              <a href="#contact" class="case-link"
+                >Get similar results <span>→</span></a
+              >
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="case-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+            data-cat="strategy"
+          >
+            <div
+              class="case-banner"
+              style="
+                background: linear-gradient(135deg, #1e2a1e 0%, #111a11 100%);
+              "
+            >
+              <div class="case-banner-inner">
+                <div
+                  style="
+                    position: absolute;
+                    inset: 0;
+                    background: radial-gradient(
+                      circle at 40% 60%,
+                      rgba(74, 222, 128, 0.15) 0%,
+                      transparent 60%
+                    );
+                  "
+                ></div>
+                <div
+                  style="
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 8px;
+                    width: 78%;
+                  "
+                >
+                  <div
+                    style="
+                      font-size: 0.7rem;
+                      color: var(--muted);
+                      letter-spacing: 1px;
+                      text-transform: uppercase;
+                      margin-bottom: 4px;
+                    "
+                  >
+                    90-Day Growth Roadmap
+                  </div>
+                  <div
+                    style="
+                      width: 100%;
+                      display: flex;
+                      flex-direction: column;
+                      gap: 6px;
+                    "
+                  >
+                    <div
+                      style="
+                        background: rgba(255, 255, 255, 0.04);
+                        border-left: 3px solid var(--orange);
+                        border-radius: 6px;
+                        padding: 8px 12px;
+                        font-size: 0.75rem;
+                      "
+                    >
+                      <span style="color: var(--orange); font-weight: 700"
+                        >Phase 1</span
+                      >
+                      — Brand Audit &amp; Positioning
+                    </div>
+                    <div
+                      style="
+                        background: rgba(255, 255, 255, 0.04);
+                        border-left: 3px solid #ff6b35;
+                        border-radius: 6px;
+                        padding: 8px 12px;
+                        font-size: 0.75rem;
+                      "
+                    >
+                      <span style="color: #ff6b35; font-weight: 700"
+                        >Phase 2</span
+                      >
+                      — Content System Build
+                    </div>
+                    <div
+                      style="
+                        background: rgba(255, 255, 255, 0.04);
+                        border-left: 3px solid #818cf8;
+                        border-radius: 6px;
+                        padding: 8px 12px;
+                        font-size: 0.75rem;
+                      "
+                    >
+                      <span style="color: #818cf8; font-weight: 700"
+                        >Phase 3</span
+                      >
+                      — Paid Launch &amp; Scale
+                    </div>
+                  </div>
+                  <div
+                    class="case-metric-bubble"
+                    style="bottom: 8px; right: -10px"
+                  >
+                    <span class="mbv" style="color: #ff6b35">0→50K</span>
+                    <span class="mbl">Followers in 6mo</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-cats">
+                <span class="case-cat">Strategy &amp; Consulting</span>
+              </div>
+              <p class="case-client">
+                B2B SaaS Startup — LinkedIn &amp; Twitter/X
+              </p>
+              <h3 class="case-title">
+                Zero to 50K: Building Authority for a Tech Startup
+              </h3>
+              <p class="case-desc">
+                A SaaS startup had a great product but zero social presence. We
+                delivered a full audit, competitive analysis, and 90-day roadmap
+                — building a following of 50K qualified decision-makers.
+              </p>
+              <div class="case-metrics-row">
+                <div class="case-metric">
+                  <span class="cmv">50K</span><span class="cml">Followers</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">220%</span
+                  ><span class="cml">Inbound Leads</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">6mo</span><span class="cml">Timeline</span>
+                </div>
+              </div>
+              <a href="#contact" class="case-link"
+                >Get similar results <span>→</span></a
+              >
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="case-card"
+            data-reveal="up"
+            data-delay="1"
+            data-dur="normal"
+            data-cat="management content"
+          >
+            <div
+              class="case-banner"
+              style="
+                background: linear-gradient(135deg, #2a1e1a 0%, #1a100c 100%);
+              "
+            >
+              <div class="case-banner-inner">
+                <div
+                  style="
+                    position: absolute;
+                    inset: 0;
+                    background: radial-gradient(
+                      circle at 55% 45%,
+                      rgba(255, 107, 53, 0.18) 0%,
+                      transparent 60%
+                    );
+                  "
+                ></div>
+                <div
+                  style="
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    width: 80%;
+                  "
+                >
+                  <div style="display: flex; gap: 10px; width: 100%">
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(255, 107, 53, 0.1);
+                        border: 1px solid rgba(255, 107, 53, 0.2);
+                        border-radius: 10px;
+                        padding: 12px;
+                        text-align: center;
+                      "
+                    >
+                      <div
+                        style="
+                          font-family: var(--font-head);
+                          font-weight: 900;
+                          font-size: 1.3rem;
+                          color: var(--orange);
+                        "
+                      >
+                        12K
+                      </div>
+                      <div style="font-size: 0.65rem; color: var(--muted)">
+                        TikTok Followers
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(255, 255, 255, 0.04);
+                        border: 1px solid var(--border);
+                        border-radius: 10px;
+                        padding: 12px;
+                        text-align: center;
+                      "
+                    >
+                      <div
+                        style="
+                          font-family: var(--font-head);
+                          font-weight: 900;
+                          font-size: 1.3rem;
+                          color: var(--white);
+                        "
+                      >
+                        200
+                      </div>
+                      <div style="font-size: 0.65rem; color: var(--muted)">
+                        Was Before
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      background: rgba(255, 255, 255, 0.04);
+                      border: 1px solid var(--border);
+                      border-radius: 10px;
+                      padding: 12px 16px;
+                      width: 100%;
+                      font-size: 0.78rem;
+                      text-align: center;
+                    "
+                  >
+                    <span style="color: var(--muted)"
+                      >Avg. Views per Reel: </span
+                    ><span style="color: var(--white); font-weight: 700"
+                      >142K</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-cats">
+                <span class="case-cat">Content Creation</span
+                ><span class="case-cat">Account Management</span>
+              </div>
+              <p class="case-client">
+                Lifestyle Creator — TikTok &amp; Instagram
+              </p>
+              <h3 class="case-title">200 to 12K Followers in 4 Months Flat</h3>
+              <p class="case-desc">
+                A lifestyle creator was posting sporadically with low traction.
+                We built a consistent Reels + TikTok strategy aligned to
+                trending audio and platform algorithms — turning their feed into
+                a growth engine.
+              </p>
+              <div class="case-metrics-row">
+                <div class="case-metric">
+                  <span class="cmv">60x</span
+                  ><span class="cml">Follower Growth</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">142K</span
+                  ><span class="cml">Avg. Views/Reel</span>
+                </div>
+              </div>
+              <a href="#contact" class="case-link"
+                >Get similar results <span>→</span></a
+              >
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="case-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+            data-cat="ads management"
+          >
+            <div
+              class="case-banner"
+              style="
+                background: linear-gradient(135deg, #1a1e2a 0%, #0e1220 100%);
+              "
+            >
+              <div class="case-banner-inner">
+                <div
+                  style="
+                    position: absolute;
+                    inset: 0;
+                    background: radial-gradient(
+                      circle at 45% 55%,
+                      rgba(99, 102, 241, 0.18) 0%,
+                      transparent 60%
+                    );
+                  "
+                ></div>
+                <div
+                  style="
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 8px;
+                    width: 78%;
+                  "
+                >
+                  <div
+                    style="
+                      font-size: 0.7rem;
+                      color: var(--muted);
+                      letter-spacing: 1px;
+                      text-transform: uppercase;
+                    "
+                  >
+                    Monthly Ad Performance
+                  </div>
+                  <div
+                    style="
+                      width: 100%;
+                      height: 60px;
+                      position: relative;
+                      display: flex;
+                      align-items: flex-end;
+                      gap: 4px;
+                    "
+                  >
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(129, 140, 248, 0.3);
+                        border-radius: 3px 3px 0 0;
+                        height: 30%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(129, 140, 248, 0.4);
+                        border-radius: 3px 3px 0 0;
+                        height: 45%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(129, 140, 248, 0.5);
+                        border-radius: 3px 3px 0 0;
+                        height: 38%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(129, 140, 248, 0.65);
+                        border-radius: 3px 3px 0 0;
+                        height: 60%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: rgba(129, 140, 248, 0.8);
+                        border-radius: 3px 3px 0 0;
+                        height: 72%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: #818cf8;
+                        border-radius: 3px 3px 0 0;
+                        height: 88%;
+                      "
+                    ></div>
+                    <div
+                      style="
+                        flex: 1;
+                        background: var(--orange);
+                        border-radius: 3px 3px 0 0;
+                        height: 100%;
+                      "
+                    ></div>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: space-between;
+                      width: 100%;
+                    "
+                  >
+                    <span style="font-size: 0.65rem; color: var(--muted)"
+                      >Month 1</span
+                    >
+                    <span
+                      style="
+                        font-size: 0.65rem;
+                        color: var(--orange);
+                        font-weight: 700;
+                      "
+                      >Month 7 → 5.1x ROAS</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-cats">
+                <span class="case-cat">Paid Advertising</span
+                ><span class="case-cat">Account Management</span>
+              </div>
+              <p class="case-client">
+                Restaurant Chain — Facebook &amp; Instagram
+              </p>
+              <h3 class="case-title">
+                Local Restaurant Triples Monthly Bookings with Paid Social
+              </h3>
+              <p class="case-desc">
+                A multi-location restaurant was relying on word-of-mouth with
+                zero digital ad spend. We launched a geo-targeted campaign,
+                optimizing each week until reaching a 5.1x ROAS and 3x booking
+                volume.
+              </p>
+              <div class="case-metrics-row">
+                <div class="case-metric">
+                  <span class="cmv">5.1x</span><span class="cml">ROAS</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">3x</span><span class="cml">Bookings</span>
+                </div>
+                <div class="case-metric">
+                  <span class="cmv">7mo</span><span class="cml">Timeline</span>
+                </div>
+              </div>
+              <a href="#contact" class="case-link"
+                >Get similar results <span>→</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- /portfolio-grid -->
+
+        <!-- CTA Strip -->
+        <div class="portfolio-cta-strip" data-reveal="up" data-dur="normal">
+          <div class="pcs-text">
+            <h3>Your brand could be our next success story.</h3>
+            <p>
+              Ready to see what a real strategy can do for your business? Let's
+              talk.
+            </p>
+          </div>
+          <a href="#contact" class="btn-primary">Book a Free Strategy Call →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       TESTIMONIALS
+  ═══════════════════════════════════════ -->
+    <section id="testimonials">
+      <div class="section-inner">
+        <div class="testimonials-header" data-reveal="up" data-dur="normal">
+          <p class="section-eyebrow">Social Proof</p>
+          <h2 class="section-title">
+            Trusted by Brands That<br />Refuse to Settle.
+          </h2>
+          <p class="section-sub">
+            From local businesses to e-commerce brands and creators — here's
+            what clients say about NEEDMO.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div
+            class="testi-card"
+            data-reveal="up"
+            data-delay="0"
+            data-dur="normal"
+          >
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">
+              "NEEDMO completely transformed our Instagram presence. Within 60
+              days we saw a 3x jump in engagement and our DMs were flooded with
+              new inquiries. They don't just post — they build strategy."
+            </p>
+            <div class="testi-author">
+              <div
+                class="testi-avatar"
+                style="background: linear-gradient(135deg, #ff6b35, #ffaa00)"
+              >
+                AR
+              </div>
+              <div>
+                <div class="testi-name">Amara R.</div>
+                <div class="testi-role">Founder, Local Boutique</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="testi-card"
+            data-reveal="up"
+            data-delay="2"
+            data-dur="normal"
+          >
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">
+              "We spent months trying to figure out social media on our own. One
+              month with NEEDMO and we finally understood why it wasn't working
+              — and watched it get fixed. Worth every dollar."
+            </p>
+            <div class="testi-author">
+              <div
+                class="testi-avatar"
+                style="background: linear-gradient(135deg, #818cf8, #6366f1)"
+              >
+                DK
+              </div>
+              <div>
+                <div class="testi-name">David K.</div>
+                <div class="testi-role">CEO, Tech Startup</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="testi-card"
+            data-reveal="up"
+            data-delay="4"
+            data-dur="normal"
+          >
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">
+              "Our TikTok went from 200 to 12,000 followers in 4 months. The
+              content quality is insane and they actually understand our brand
+              voice. It feels like we have an in-house creative team."
+            </p>
+            <div class="testi-author">
+              <div
+                class="testi-avatar"
+                style="background: linear-gradient(135deg, #ff6b35, #22c55e)"
+              >
+                SN
+              </div>
+              <div>
+                <div class="testi-name">Sofia N.</div>
+                <div class="testi-role">Content Creator &amp; Influencer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       FAQ
+  ═══════════════════════════════════════ -->
+    <section id="faq">
+      <div class="section-inner">
+        <div class="faq-inner">
+          <div>
+            <div data-reveal="left" data-dur="normal">
+              <p class="section-eyebrow">Got Questions?</p>
+              <h2 class="section-title">Frequently Asked.</h2>
+              <p class="section-sub">
+                Everything you need to know before partnering with NEEDMO. If
+                your question isn't here, just reach out.
+              </p>
+            </div>
+            <a
+              href="#contact"
+              class="btn-primary"
+              data-reveal="left"
+              data-delay="2"
+              data-dur="normal"
+              style="margin-top: 32px; display: inline-flex"
+            >
+              Ask Us Directly →
+            </a>
+          </div>
+
+          <div
+            class="faq-list"
+            data-reveal="right"
+            data-delay="1"
+            data-dur="normal"
+          >
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                What platforms do you manage?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                We work across Instagram, Facebook, TikTok, LinkedIn, X
+                (Twitter), and YouTube. We recommend the right platform mix
+                based on your business type, audience, and goals.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                How quickly will I see results?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                Most clients see engagement improvements within 30–60 days.
+                Significant growth — followers, leads, and revenue impact —
+                typically happens over 3–6 months of consistent strategy.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                Do I need a long-term contract?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                No. We offer flexible monthly plans with no long-term commitment
+                required. That said, we recommend at least 3 months together to
+                see meaningful, compounding results.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                Can I choose just one service?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                Absolutely. You can start with what you need most — whether
+                that's content creation, ads, or just a strategy audit — and
+                scale up as your business grows.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                Will I approve content before it goes live?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                Yes — always. You'll review and approve everything we create
+                before it's published. Your brand, your voice, your final say.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q" onclick="toggleFaq(this)">
+                Who do you typically work with?
+                <span class="faq-icon">+</span>
+              </div>
+              <div class="faq-a">
+                We work with small local businesses, e-commerce brands, startups
+                &amp; tech companies, and content creators or influencers who
+                are serious about growing their online presence.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════ -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="contact-inner">
+          <div class="contact-info">
+            <div data-reveal="left" data-dur="normal">
+              <p class="section-eyebrow">Contact Us</p>
+              <h2 class="section-title">
+                Let's Talk About What Your Brand Needs More Of.
+              </h2>
+              <p class="section-sub" style="margin-top: 14px">
+                Whether you're starting from scratch or ready to scale, we'd
+                love to learn about your goals and show you how we can help.
+              </p>
+            </div>
+            <div
+              class="contact-items"
+              data-reveal="left"
+              data-delay="2"
+              data-dur="normal"
+            >
+              <div class="contact-item">
+                <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <div class="ci-label">Email</div>
+                  <div class="ci-val">
+                    <a
+                      href="/cdn-cgi/l/email-protection#ed8588818182ad8388888980828e82839e988199c38e8280"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="b3dbd6dfdfdcf3ddd6d6d7dedcd0dcddc0c6dfc79dd0dcde"
+                        >[email&#160;protected]</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <div class="ci-label">Phone</div>
+                  <div class="ci-val">
+                    <a href="tel:+2347068984590">+234 706 898 4590</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="ci-label">Address</div>
+                  <div class="ci-val">
+                    4 Utang Street, Uyo<br /><span
+                      style="color: var(--muted); font-size: 0.85rem"
+                      >Akwa Ibom State, Nigeria</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="contact-form"
+            data-reveal="right"
+            data-delay="1"
+            data-dur="normal"
+          >
+            <h3
+              style="
+                font-family: var(--font-head);
+                font-weight: 700;
+                font-size: 1.15rem;
+                margin-bottom: 6px;
+              "
+            >
+              Book a Free Strategy Call
+            </h3>
+            <p
+              style="
+                color: var(--muted);
+                font-size: 0.85rem;
+                margin-bottom: 28px;
+              "
+            >
+              30 minutes. No pressure. Just strategy.
+            </p>
+            <form onsubmit="handleSubmit(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>First Name</label>
+                  <input type="text" placeholder="John" required />
+                </div>
+                <div class="form-group">
+                  <label>Last Name</label>
+                  <input type="text" placeholder="Doe" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  placeholder="john@yourcompany.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Business Type</label>
+                <select>
+                  <option value="">Select your business type</option>
+                  <option>Local Business</option>
+                  <option>E-commerce Brand</option>
+                  <option>Startup / Tech Company</option>
+                  <option>Content Creator / Influencer</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Service of Interest</label>
+                <select>
+                  <option value="">What do you need?</option>
+                  <option>Content Creation</option>
+                  <option>Account Management</option>
+                  <option>Paid Advertising</option>
+                  <option>Strategy &amp; Consulting</option>
+                  <option>Full-Service Package</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Tell Us About Your Goals</label>
+                <textarea
+                  placeholder="What are you hoping to achieve with social media? Any specific goals or challenges?"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn-primary"
+                style="
+                  width: 100%;
+                  justify-content: center;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 0.9rem;
+                  padding: 15px;
+                "
+              >
+                Book My Free Strategy Call →
+              </button>
+            </form>
+            <p
+              id="form-success"
+              style="
+                display: none;
+                text-align: center;
+                color: #ff6b35;
+                font-weight: 600;
+                padding: 16px;
+                background: rgba(74, 222, 128, 0.08);
+                border: 1px solid rgba(74, 222, 128, 0.2);
+                border-radius: 10px;
+                margin-top: 16px;
+              "
+            >
+              ✅ Message sent! We'll be in touch within 24 hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#hero" class="logo">
+              <img
+                src="NeedMo_Logo.svg"
+                alt="NeedMo Consult"
+                class="logo-img logo-img--footer"
+              />
+            </a>
+            <p>
+              A results-driven social media agency helping businesses, creators,
+              and brands turn their online presence into real, measurable
+              growth.
+            </p>
+            <div class="social-links">
+              <a
+                href="#"
+                class="social-link"
+                title="Instagram"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61588077646525"
+                class="social-link"
+                title="Facebook"
+                aria-label="Facebook"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@needmoconsult"
+                class="social-link"
+                title="YouTube"
+                aria-label="YouTube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a
+                href="#"
+                class="social-link"
+                title="LinkedIn"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="#"
+                class="social-link"
+                title="X / Twitter"
+                aria-label="X Twitter"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="#services">Content Creation</a></li>
+              <li><a href="#services">Account Management</a></li>
+              <li><a href="#services">Paid Advertising</a></li>
+              <li><a href="#services">Strategy &amp; Consulting</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Started</h4>
+            <ul class="footer-links">
+              <li><a href="#contact">Book a Strategy Call</a></li>
+              <li>
+                <a
+                  href="/cdn-cgi/l/email-protection#82eae7eeeeedc2ece7e7e6efede1edecf1f7eef6ace1edef"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="78101d14141738161d1d1c15171b17160b0d140c561b1715"
+                    >[email&#160;protected]</span
+                  ></a
+                >
+              </li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn-primary"
+              style="
+                margin-top: 20px;
+                display: inline-flex;
+                font-size: 0.82rem;
+                padding: 10px 18px;
+              "
+            >
+              Free Consultation →
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 <span>NEEDMO CONSULT</span>. All rights reserved.</p>
+          <p style="font-size: 0.78rem">
+            Your Brand Deserves <span>More.</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+  </body>
+</html>
